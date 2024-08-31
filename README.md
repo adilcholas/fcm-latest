@@ -37,7 +37,7 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
-
+```
 ### 3. Configure Module-level `build.gradle`
 
 Update the **module-level `build.gradle`** file (`android/app/build.gradle`) with the following:
@@ -98,8 +98,10 @@ flutter {
     source = "../.."
 }
 
+```
 ### 4. Change `AndroidManifest.xml` as follows
 
+```
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 <uses-permission android:name="android.permission.INTERNET"/>
@@ -148,7 +150,7 @@ flutter {
         </intent>
     </queries>
 </manifest>
-
+```
 
 ### 4. Finally test the message using the token printed in the console.
 
