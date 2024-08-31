@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909516476182",
+    "project_id": "start-with-fire-589f3",
+    "storage_bucket": "start-with-fire-589f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909516476182:android:8df91fea690a9e1c5c4a37",
+        "android_client_info": {
+          "package_name": "com.example.fire_fcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMSFeP_rFdhMdW3T44J5uP702N4y5Q9f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
